@@ -1,0 +1,32 @@
+# Binários compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretórios de build
+/build/
+bin/
+dist/
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Banco de dados local ou arquivos gerados
+*.db
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Dependências geradas automaticamente
+vendor/
+
+# Arquivos do Go Modules (opcional, se você não quiser versionar)
+#go.sum
